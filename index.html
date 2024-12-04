@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <span class="portfolio">PORTIFÓLIO</span>
+                <ul class="menu">
+                    <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                    <li><a href="#projetos">MEUS PROJETOS</a></li>
+                    <li><a href="#formacao">FORMAÇÃO</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="avatar">
+                <div class="avatar-content">
+                    <img src="./image/Rhayner.jpg" alt="Foto de Rhayner">
+                    <div>
+                        <h1><span>Olá! <br>Meu nome é</span> <br>RHAYNER DINIZ</h1>
+                        <h4>Desenvolvedor de Software em Formação</h4>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sobre Mim -->
+            <section class="sobremim" id="sobre-mim">
+                <h2>SOBRE MIM</h2>
+                <p>Olá! Sou o Rhayner, tenho 33 anos e sou de Belo Horizonte/MG. Há dois anos iniciei minha jornada no mundo da tecnologia em busca de uma transição de carreira.</p>
+                <p>Meu objetivo é me tornar um desenvolvedor de software, tenho me dedicado a aprender e aprimorar minhas habilidades para construir um sólido portifólio de projetos e em busca novas oportunidades para colocar meu conhecimento em prática. Explore meu portfólio e veja o que tenho construído até agora!</p>
+            </section>
+
+            <!-- Meus Projetos -->
+            <section id="projetos">
+                <h2>MEUS PROJETOS</h2>
+                <div class="projetos-grid">
+                    <div class="projeto">
+                        <h3>Projeto 1: DevLinks</h3>
+                        <p>Página de apresentação</p>
+                        <a href="https://rhaynerdiniz.github.io/PaginaDeApresentacao/" target="_blank" class="projeto-link">Ver Site</a>
+                        <a href="https://github.com/RhaynerDiniz/PaginaDeApresentacao" target="_blank" class="projeto-link">Ver Código (GitHub)</a>
+                    </div>
+                    <div class="projeto">
+                        <h3>Projeto 2: Rio de Janeiro</h3>
+                        <p>Responsividade em imagens </p>
+                        <a href="https://rhaynerdiniz.github.io/Responsividade/" target="_blank" class="projeto-link">Ver Site</a>
+                        <a href="https://github.com/RhaynerDiniz/Responsividade" target="_blank" class="projeto-link">Ver Código (GitHub)</a>
+                    </div>
+                    <div class="projeto">
+                        <h3>Projeto 3: Curitiba</h3>
+                        <p>Site Responsivo com Media Query</p>
+                        <a href="https://rhaynerdiniz.github.io/ADS-F.Prog.Web-Aula04/" target="_blank" class="projeto-link">Ver Site</a>
+                        <a href="https://github.com/RhaynerDiniz/ADS-F.Prog.Web-Aula04" target="_blank" class="projeto-link">Ver Código (GitHub)</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Formação Educacional -->
+            <section id="formacao">
+                <h2>FORMAÇÃO EDUCACIONAL</h2>
+                <div class="formacao-container">
+                    <div class="formacao-list">
+                        <div class="formacao-item">
+                            <h3>Ensino Médio Completo</h3>
+                            <p>Escola Municipal IMACO</p>
+                        </div>
+                        <div class="formacao-item">
+                            <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+                            <p>UNINTER - Em andamento (Conclusão prevista: Dezembro de 2026)</p>
+                        </div>
+                        <div class="formacao-item">
+                            <h3>Curso de Inglês</h3>
+                            <p>UNINTER - Em andamento</p>
+                        </div>
+                    </div>
+                    <div class="formacao-image">
+                        <img src="./image/ai-generated-8684869_1280.webp" alt="Imagem representando minha formação">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Contato -->
+        <div>
+            <section id="contato">
+                <h2>ENTRE EM CONTATO COMIGO</h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+        
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+        
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+
+        <!-- Rodapé - Links para redes sociais -->
+        <footer>
+            <a href="https://github.com/RhaynerDiniz" target="_blank">
+                <img src="../Trabalho/image/github.png" alt="logoGitHub">
+                <p>GitHub</p>
+            </a>
+            <a href="https://www.instagram.com/rhaynerfelipe/" target="_blank">
+                <img src="./image/insta.png" alt="logo insta">
+                <p>Instagram</p>
+            </a>
+            <a href="https://www.linkedin.com/in/rhayner-diniz-b85231171/" target="_blank">
+                <img src="./image/linkedin.png" alt="logo LinkedIn">
+                <p>LinkedIn</p>
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
