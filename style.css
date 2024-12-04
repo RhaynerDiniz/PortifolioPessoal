@@ -263,6 +263,7 @@ section h2 {
     }
     .formacao-image{
         width:100%;
+        align-items: center;
     }
 }
 
